@@ -35,6 +35,8 @@ public class Tab4 extends android.support.v4.app.Fragment {
             t.setText(R.string.rice_2_management);
         }else if(x==1 && y==3){
             t.setText(R.string.rice_3_management);
+        }else if(x==1 && y==4){
+            t.setText(R.string.rice_4_management);
         }else if(x==2 && y==1){
             t.setText(R.string.wheat_1_management);
         }

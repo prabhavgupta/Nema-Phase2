@@ -1,114 +1,147 @@
 <resources>
     <string name="app_name">Nematodeinfo</string>
 
+    <string name="footer"> Dr. PANKAJ , HARENDER KUMAR AND ANJANI KUMAR , 2017</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string-array name="crops">
+        <item>Rice</item>
+        <item>Wheat</item>
+    </string-array>
+
+    <string-array name="Rice_Nematodes">
+        <item>M.Graminicola</item>
+        <item>Hirscmanniella</item>
+        <item>Ditylenchus</item>
+        <item>Aphelenchoides besseyi</item>
+    </string-array>
+
+    <integer-array name="Rice_Nematodes_images">
+        <item>@drawable/common_google_signin_btn_text_light_disabled</item>
+        <item>@drawable/rice</item>
+        <item>@drawable/rice</item>
+        <item>@drawable/rice</item>
+    </integer-array>
+
+    <string-array name="Wheat_Nematodes">
+        <item>Heterodera</item>
+    </string-array>
+
+    <integer-array name="Wheat_Nematodes_images">
+        <item>@drawable/rice</item>
+    </integer-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <string name="rice_1_intro">
-    Ecology
-\n\nM. graminicola is found in upland soils, shallow flooded soils and deep flooded soils. It is well adapted to flooded conditions and can survive in waterlogged soil as eggs in egg masses or as juveniles for long periods. Numbers of M. graminicola decline rapidly after 4 months but some egg masses can remain viable for at least 14 months in waterlogged soil (Roy, 1982). M. graminicola can survive in soil flooded to a depth of 1 m for at least 5 months (Bridge and Page, 1982), it cannot invade rice in flooded conditions but quickly invades when infested soils are drained (Manser, 1968). All Meloidogyne spp. can be spread in soil and on seedlings of other crop hosts planted to a field. Because M. graminicola are found in flooded rice there is the additional danger of dissemination in irrigation and run-off water.
-\n\n\n
-Life Cycle
-        \n\nM. graminicola from Bangladesh has a very short life cycle on rice of less than 19 days at temperatures of 22-29°C (Bridge and Page, 1982), and an isolate from the USA completed its cycle in 23-27 days at 26°C (Yik and Birchfield, 1979). In India the life cycle of M. graminicola is reported to be 26-51 days, depending on time of year (Rao and Israel, 1973).
-Infective, second-stage juveniles of M. graminicola invade rice roots in upland conditions just behind the root tip (Buangsuwon et al., 1971; Rao and Israel, 1973). Females develop within the root and eggs are mainly laid in the cortex (Roy, 1976a). Juveniles can remain in the maternal gall or migrate intercellularly through the aerenchymatous tissues of the cortex to new feeding sites within the same root (Bridge and Page, 1982). This behaviour appears to be an adaptation by M. graminicola to flooded conditions enabling it to continue multiplying within the host tissues even when roots are deeply covered by water. Juveniles that migrate from rice roots in flooded soil cannot re-invade.
+  In northern India, there is a shift in cultivation of rice in the wheat growing belt of Punjab, Haryana and Uttar Pradesh. Most of the farmers of non-traditional areas in Haryana-khadar belt grow rice in sandy soil with low water holding capacity. Thus, rice is grown under shallow water conditions, which is more conducive for the multiplication of M. graminicola.
     </string>
     
     
     
     <string name="rice_1_spread">
-        Increasing soil fertility can compensate for some damage by M. graminicola. Resistant cultivars hold out the most promise for effective and economic control, and some resistance to the different species has been found. Chemical control on the field scale is generally uneconomic, particularly with low-yielding upland rice, but could be an economic proposition for nursery soils.
-\n\n1.	M. graminicola will survive normal flooding but damage to the crop can be avoided by raising rice seedlings in flooded soils thus preventing root invasion by the nematodes (Bridge and Page, 1982). Continuous flooding is highly effective in controlling M. graminicola in Vietnam (Kinh et al., 1982).
-\n\n2.	Rice genotypes viz., ARC-13516, INRC-8867 and INRC-8843 were found resistant to M. graminicola.
-\n\n3.	Nursery bed treatment with carbofuran @ 0.3 g a.i./m2 and field application of carbofuran @ 1 kg. a.i./ha after 40-45 days of transplanting helped in checking the disease.
-\n\n4.	Soaking of rice seeds in 0.1% solution of carbosulfan or monocrotophos for 12 hours reduced the egg mass production of M. graminicola.
-\n\n5.	Certain crops are resistant or poor hosts of M. graminicola and could be used in rotation to reduce nematode populations e.g. castor, cowpeaa, sweet potatoes, soyabeans, sunflower, sesame, onion, turnip, Phaseolus vulgaris, jute and okra (Rao et al., 1986).
+  Rice root-knot nematode is widely distributed in South-East Asia and USA, both in upland and deepwater rice. Severe damage occurs in upland and sometimes in transplanted rice in north-eastern states, West Bengal, Odisha, Bihar, Eastern Uttar Pradesh, Chhattisgarh, parts of Madhya Pradesh and Karnataka. Pockets of heavy infestation of rice nurseries and transplanted crop have been noticed in north-Indian plains including Jammu, Punjab, Himachal Pradesh, Haryana, Delhi and Uttar Pradesh. The nematode has also been reported in Andaman and Nicobar Islands.
+This nematode infecting wheat and rice are carried passively to newer places through  transportation of infected rice seedlings, flowing irrigation and runoff water, movement of soil containing eggs and bits of dried infected roots through cattle and human feet, farm machinery, weed, wind, etc. and suckers of banana.
 
     </string>
     
     
     <string name="rice_1_symptoms">
-       Ditylenchus angustus is synonymous with Tylenchus angustus Butler, 1913 and Anguillulina angusta(Butler) Goodey. The preferred common name for D. angustus is the rice stem nematode; however,the organism is also referred to as the ufra nematode deriving its name from the disease it causes inrice (ufra). Ufra disease is known locally in Bangladesh as “dak pora” (because the field damage
-
-caused by the nematode resembles that caused by a lightning strike); in Myanmar this nematode is known as “akhet-pet” and in Vietnam as “tiem dot san”.
-
+     In general, infested rice plants show less vigour, yellowing and curling of leaves.  The chlorophyll content of leaves is reduced. The most characteristic symptom is formation of root galls, which are terminal, spiral or horse-shoe shaped.  The crop has poor stand, less tillering and fewer effective tillers. The spikes become smaller and fewer with poorly filled grains, thus reducing the yield.
+In deep water rice, the nematode infested seedlings remain stunted, unable to grow above flood water and perish due to continuous submergence.
 
     </string>
     <string name="rice_1_management">
 
-Increasing soil fertility can compensate for some damage by M. graminicola. Resistant
+        1.  Nursery-bed treatment\n\n
+•	Selection of an area for nursery, free from root-knot nematode.\n
+•	Soil solarization of the area for nursery-beds, for 3-6 weeks in late April-May (summer).\n
+•	Application of carbofuran or phorate @ 3.3 g per sq m.\n\n
+2.  Treatment of main field\n\n
+•	Puddling of the main field before transplanting.\n
+•	Summer ploughing of the main field, twice at 2 weeks interval.\n
+•	Avoiding direct sowing of rice in the main field.\n
+•	Crop rotation with non-host crops.\n
+•	Late sowing of wheat during late November to mid-December with a suitable variety.\n
+•	Green manuring with Sesbania spp. or Crotolaria spp., if time permits.\n
 
-cultivars hold out the most promise for effective and economic control, and some resistance
 
-to the different species has been found. Chemical control on the field scale is generally
-
-uneconomic, particularly with low-yielding upland rice, but could be an economic
-
-proposition for nursery soils.
-\n\n
-• M. graminicola will survive normal flooding but damage to the crop can be avoided
-
-by raising rice seedlings in flooded soils thus preventing root invasion by the
-
-nematodes (Bridge and Page, 1982). Continuous flooding is highly effective in
-
-controlling M. graminicola in Vietnam (Kinh et al., 1982).
-\n\n
-• Rice genotypes viz., ARC-13516, INRC-8867 and INRC-8843 were found resistant to
-
-M. graminicola.
-\n\n
-• Nursery bed treatment with carbofuran @ 0.3 g a.i./m2 and field application of
-
-carbofuran @ 1 kg. a.i./ha after 40-45 days of transplanting helped in checking the
-
-disease.
-\n\n
-• Soaking of rice seeds in 0.1% solution of carbosulfan or monocrotophos for 12 hours
-
-reduced the egg mass production of M. graminicola.
-\n\n
-• Certain crops are resistant or poor hosts of M. graminicola and could be used in
-
-rotation to reduce nematode populations e.g. castor, cowpeaa, sweet potatoes,
-
-soyabeans, sunflower, sesame, onion, turnip, Phaseolus vulgaris, jute and okra (Rao et
-
-al., 1986).
 
     </string>
 
 
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Rice 2-->
      <string name="rice_2_intro">
-       Distrubution:Hirschmanniella spp. are observed throughout rice- and non-rice- growing regions of the world,including the United States, but is most commonly found in tropical and subtropical regions of Asia.This nematode has been identified in the Asian countries viz., Myanmar, India, Pakistan, Bangladesh,Sri Lanka, Nepal, Thailand, Vietnam, Indonesia, the Philippines, China, Korea, and Japan.
-\n\n
-         Lifecycle: The nematode is sexually dimorphic, i.e. sexes are separate, and amphimictic reproduction; bothsexes are required.  Following fertilization, adult females lay oval-shaped eggs, mostly within thecortex, that hatch after 4 to 5 days while inside the root. There are 4 molts that occur throughout the life cycle, the first of which occurs in the egg. The hatched stage 2 juvenile, while migrating through and feeding on cells in the cortex, then completes 3 successive molts, and after the final molt, immature adult females and males emerge with gonads not yet fully developed. The complete life cycle takes one month from the egg to develop into an adult.
-\n\n
-         Host-parasite relationship: Although rice is the principal host, around 30 other plants have been reported to be parasitized by RRN including cotton, maize, and sugarcane.On rice, disease symptoms of RRN infection are not easily identified in above ground tissues and an infested field may show no symptoms other than reduced grain yields. However, the events during an RRN infection on rice have been well studied. It has been found that RRN can penetrate anywhere along the roots of rice except at the tips or the thin lateral roots. The penetrated nematodes can either enter the root completely or simply embed their heads into the cortex.
-    </string>
+   The genus Hirschmanniella includes at present about 35 species. More than half of them have been recorded on rice and can be found in tropical and subtropical regions of the world including the Southern USA, China and Japan. The non-rice species are found in the same region and in the northern temperate zone (less than 10 species). All members are obligate migratory endoparasites of roots and are adapted to a broad range of moist habitats with a preference for graminaceous roots (Loof, 1991). In addition some dicotyledonous plants such as cotton are hosts, including some weeds. Hirschmanniella has also been detected on roots and leaves of aquatic plants and in soil associated with bonsais. On rice, it is common to detect several species of Hirschmanniella. </string>
 
 
 
     <string name="rice_2_spread">
-      rice 2 spread data
+     Hirschmanniella spp. are observed throughout rice- and non-rice-growing regions of the world, including the United States, but is most commonly found in tropical and subtropical regions of Asia. This nematode has been identified in the Asian countries viz., Myanmar, India, Pakistan, Bangladesh, Sri Lanka, Nepal, Thailand, Vietnam, Indonesia, the Philippines, China, Korea, and Japan.
 
     </string>
 
 
     <string name="rice_2_symptoms">
-        The general symptoms of Hirschmanniella spp. are not specific. On rice retardation of growth, decrease in culm height, reduction in weight of dry matter, delayed tillering; fewer shoots and discolouration of the older leaves have been reported.
-
-
+      The general symptoms of Hirschmanniella spp. are not specific. On rice retardation of growth, decrease in culm height, reduction in weight of dry matter, delayed tillering; fewer shoots and discolouration of the older leaves have been reported.
 
     </string>
+
     <string name="rice_2_management">
-Since both eggs and juveniles can overwinter in dead roots. In response to rice paddy desiccation, these nematodes can survive by entering an anhydrobiotic state until the rains
-
-begin, which allows the nematode populations to remain dormant. Therefore, control measures have proven with little success. Also, certain control measures such as the use of nematicides are not economically feasible since rice does not have a high enough cash value in developing countries
-\n\n
-• Weed control and natural resistances of rice are possible control measures that may prove more effective in the future, but the lack of extensive research efforts for varietal resistance renders the latter unsuccessful.
-\n\n
-• Proper cultural practices can provide satisfactory plant stand though heavily infected, which allows for a level of tolerance of rice to RRN.
-\n\n
+\n•	Since both eggs and juveniles can overwinter in dead roots. In response to rice paddy desiccation, these nematodes can survive by entering an anhydrobiotic state until the rains begin, which allows the nematode populations to remain dormant.  Therefore, control measures have proven with little success. Also, certain control measures such as the use of nematicides are not economically feasible since rice does not have a high enough cash value in developing countries\n
+\n•	Weed control and natural resistances of rice are possible control measures that may prove more effective.\n
+\n•	Proper cultural practices can provide satisfactory plant stand though heavily infected, which allows for a level of tolerance of rice to RRN.
 
     </string>
+
+
 
 
 
@@ -119,95 +152,119 @@ begin, which allows the nematode populations to remain dormant. Therefore, contr
 
 
      <string name="rice_3_intro">
-   Ditylenchus angustus is synonymous with Tylenchus angustus Butler, 1913 and Anguillulina angusta(Butler) Goodey. The preferred common name for D. angustus is the rice stem nematode; however,the organism is also referred to as the ufra nematode deriving its name from the disease it causes inrice (ufra). Ufra disease is known locally in Bangladesh as “dak pora” (because the field damage
-
-caused by the nematode resembles that caused by a lightning strike); in Myanmar this nematode is known as “akhet-pet” and in Vietnam as “tiem dot san”.
+   Ditylenchus angustus is synonymous with Tylenchus angustus Butler, 1913 and Anguillulina angusta (Butler) Goodey. It is also referred to as the ufra nematode deriving its name from the disease it causes in rice (ufra).  Ufra disease is known locally in Bangladesh as “dak pora” (because the field damage caused by the nematode resembles that caused by a lightning strike); in Myanmar this nematode is known as “akhet-pet” and in Vietnam as “tiem dot san”.
 \n\n
-Host range : Echinochloa colona (junglerice) Leersia hexandra (southern cut grass) Oryza (rice (generic level)) Oryza sativa (rice)
-
-Sacciolepsis interrupta
-         \n\n
- Life Cycle : Ditylenchus angustus feeds ectoparasitically on the tissues of young or soft leaves and leaf sheaths and migrates upward to feed on newly forming tissues as the plant grows. At harvest, D. angustus is found in a desiccated state coiled up in crop residues, soil and seeds. Studies have indicated that D. angustus has no intrinsic ability to control water loss from its body; its ability to survive desiccation depends on high humidity and/or protection by plant tissues. Losses between 1.26 to 3.94 t/ha have
-
-been recorded when 4–10% infected seedlings were transplanted in a field (Mondal et al., 1989). In
-
-water, the nematodes can invade a host within one hour. However, this invasion depends on the
-
-plant age and water level as older plants and those in fields with low flood water are less easily invaded. The reproduction in D. angustus is amphimictic with males as numerous as females within a population. The life cycle is of 10 to 20 days at 30 °C, and at least three generations may occur within one growing season (Rahman, 2003). Adult females begin oviposition 1 day after developing to adulthood and lays 50 and 120 eggs in a lifetime.
- </string>
+Other host are:\n
+\nEchinochloa colona (junglerice)\n
+Leersia hexandra (southern cut grass)\n
+Oryza (rice (generic level))\n
+Sacciolepsis interrupta\n
+</string>
 
 
 
     <string name="rice_3_spread">
-     Ditylenchus angustus is adapted to flooded soils and to the high temperatures that occur in many of the irrigated, rain-fed lowland, upland, deepwater and tidal wetland rice-growing regions around the world (Bridge et al., 2005). The nematode has been reported in Bangladesh, India, Indonesia, Myanmar, the Philippines, Thailand and Vietnam. D. angustus has a limited geographical distribution and it is solely a pest of rice, although it does occur on different types of flooded rice from deepwater to lowland irrigated. It has been recorded and confirmed on rice from India, Bangladesh, Thailand, Myanmar and Vietnam.
+    Ditylenchus angustus is adapted to flooded soils and to the high temperatures that occur in many of the irrigated, rain-fed lowland, upland, deepwater and tidal wetland rice-growing regions around the world (Bridge et al., 2005). The nematode has been reported in Bangladesh, India, Indonesia, Malaysia, Myanmar, the Philippines, Thailand and Vietnam. D. angustus has a limited geographical distribution and it is solely a pest of rice, although it does occur on different types of flooded rice from deepwater to lowland irrigated. It has been recorded and confirmed on rice from India, Bangladesh, Thailand, Myanmar and Vietnam.
+\n
+The reproduction in D. angustus is amphimictic with males as numerous as females within a population. The life cycle is of 10 to 20 days at 30 °C, and at least three generations may occur within one growing season, lays 50 and 120 eggs in a lifetime.
 
     </string>
 
 
     <string name="rice_3_symptoms">
-       During vegetative growth from seedling to flag leaf, the principal symptom of infection is
 
-leaf chlorosis. In light infections, the chlorosis will be discrete white spots, less than 1 mm in
+\n•	During vegetative growth from seedling to flag leaf, the principal symptom of infection is leaf chlorosis. In light infections, the chlorosis will be discrete white spots, less than 1 mm in diameter. As nematode numbers increase, these spots become more numerous, intensify and coalesce towards the base of the penultimate leaf and lower part of the emerging leaf.\n
+\n•	D. angustus does feed on the inner surface of the leaf sheaths, but these rarely show obvious symptoms. In time the chlorotic areas will show some localized browning.\n
+\n•	Depending on the severity of infection, chlorotic leaf areas, tillers or whole plants will wither and die, attaining a light-brown appearance. In severe infections, the entire crop takes on this appearance.
+\n•	If infected tillers survive to flowering then the panicles remain partially or completely enclosed within the leaf sheath. Partially emerged panicles bear few, if any, true seed and the empty spikelets are distorted and discoloured.
 
-diameter. As nematode numbers increase, these spots become more numerous, intensify
-
-and coalesce towards the base of the penultimate leaf and lower part of the emerging leaf.
-\n\n
-• D. angustus does feed on the inner surface of the leaf sheaths, but these rarely show
-
-obvious symptoms. In time the chlorotic areas will show some localized browning.
-\n\n
-• Depending on the severity of infection, chlorotic leaf areas, tillers or whole plants will wither
-
-and die, attaining a light-brown appearance. In severe infections, the entire crop takes on
-
-this appearance.
-\n\n
-• If infected tillers survive to flowering then the panicles remain partially or completely
-
-enclosed within the leaf sheath. Partially emerged panicles bear few, if any, true seed and
-
-the empty spikelets are distorted and discoloured.
 
 
     </string>
     <string name="rice_3_management">
-• Burning of crop residues to eliminate all infested stem terminals
+  \n      •	Burning of crop residues to eliminate all infested stem terminals extending the overwintering period by delayed planting\n
+\n•	D. angustus survives for a limited period: lengthening the overwintering period can reduce primary infection This can be achieved with deepwater rice by using short-duration cultivars\n
+\n•	The use of resistant cultivars, when they become available, should prove to be the most effective measure\n
+\n•	Growing a non-host crop, such as jute, in rotation with deepwater rice can reduce the incidence of ufra in fields.\n
+\n•	Removal of ratoon rice plants, wild rice and other host weeds will help prevent the carryover between seasons, and banks between plots may also be beneficial.\n
+\n•	Where it is possible, submerging young seedlings for a week would reduce infection in lowland rice. Maintaining water levels well below the top of the leaf-sheath collar throughout the crop in lowland rice reduce nematode dispersal and secondary and tertiary infection.\n
+\n•	A large number of deepwater and lowland rice cultivars have been tested against D. angustus. The cultivars Padmapani and Digha are not attacked by D. angustus in areas of India and Bangladesh.
 
-extending the overwintering period by delayed planting
-\n\n
-• D. angustus survives for a limited period: lengthening the overwintering period can reduce
+    </string>
 
-primary infection This can be achieved with deepwater rice by using short-duration cultivars
-\n\n
-• The use of resistant cultivars, when they become available, should prove to be the most
 
-effective measure
-\n\n
-• Growing a non-host crop, such as jute, in rotation with deepwater rice can reduce the
 
-incidence of ufra in fields.
-\n\n
-• Removal of ratoon rice plants, wild rice and other host weeds will help prevent the carryover
 
-between seasons, and banks between plots may also be beneficial.
-\n\n
-• Where it is possible, submerging young seedlings for a week would reduce infection in
 
-lowland rice. Maintaining water levels well below the top of the leaf-sheath collar
 
-throughout the crop in lowland rice reduce nematode dispersal and secondary and tertiary
 
-infection.
-\n\n
-• A large number of deepwater and lowland rice cultivars have been tested against D.
 
-angustus. The cultivars Padmapani and Digha are not attacked by D. angustus in areas of
 
-India and Bangladesh.
+
+
+
+
+
+
+         <string  formatted="false"  name="rice_4_intro">
+   Aphelenchoides besseyi is seed borne, affects rice crop grown in humid areas. It is widely distributed and now occurs in most rice growing areas.
+</string>
+
+
+
+    <string name="rice_4_spread"  formatted="false" >
+ A. besseyi is not found beyond latitude 43° N on rice or beyond 40° N on strawberries.  Locally established in Bulgaria, Hungary (Javor, 1970), Italy, Russia (European), Slovakia; reported from but not established in Israel and France.\n
+\n<b>Asia</b>: Afghanistan, Azerbaijan, Bangladesh, Cambodia, China (widespread), India (widespread), Indonesia, Iran, Israel (reported but not established), Japan (unconfirmed), Korea Republic, Lao, Malaysia, Myanmar, Nepal, Pakistan, Philippines, Sri Lanka, Taiwan, Tajikistan, Thailand, Uzbekistan, Viet Nam.\n
+\nAfrica: Benin, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad, Comoros, Côte d\'Ivoire, Egypt, Gabon, Gambia, Ghana, Kenya, Madagascar, Malawi, Mali, Nigeria, Senegal, Sierra Leone, South Africa, Tanzania, Togo, Uganda, Zaire, Zambia, Zimbabwe.\n
+\nNorth America: Mexico, USA (Arizona, California, Florida, Hawaii, Louisiana, Texas).\n
+\nCentral America and Caribbean: Cuba, Dominica, Dominican Republic, El Salvador, Guadeloupe, Panama.\n
+\nSouth America: Argentina, Brazil (Bahia, Minas Gerais, Parana, Rondonia, Santa Catarina, São Paulo), Ecuador.\n
+\nOceania: Australia (Queensland, Northern Territory), Fiji.\n
+\nThe optimum temperature for development is 21-25°C, the life cycle taking 10 days at 21°C and 8 days at 23°C, and there are several generations in a season.
+   </string>
+
+
+    <string  formatted="false" name="rice_4_symptoms">
+
+Affected plants show white-tip or whip-like malformation of the top third of the leaf blade. Nematodes invade the florets through the tunnel below the apiculus where lemma and palea remain open. In flowering tillers, chaffiness and abnormal elongation of glumes in some spikelets, rachii and rachillae were observed (Todd and Atkins, 1958; Rao, 1970). Cell damage to the outer wall of the ovary causes partial filling of kernels and damage to the lodicules prevents closure of flower after anthesis, exposing the embryo to environmental stresses like desiccation, infection by Alternaria (Trichoconis) padwikii (Ganguly) Ellis and spikelet sterility (Rao and Rao, 1979). During rice development, Tsay et al. (1998) found A. besseyi feeding endoparasitically in the coleoptile for 7-10 days and ectoparasitically within the innermost leaf sheath during other plant growth stages. At late tillering, nematode numbers increased rapidly, and reached a peak during the plant reproductive stage. Infected plants showed reduced vigour, height and weight of spikelets and number of grains.
+\n
+On strawberries\n
+There is leaf crinkling and distortion, and dwarfing of the plant with an associated reduction in flowering.\n
+On other hosts\n
+A. besseyi may be endoparasitic, as in Ficus elastica and Polianthes tuberosa, in which it causes leaf drop and leaf lesions, respectively. In the grass Sporobolus poirettii, the nematode stimulates growth, resulting in increased inflorescences.
+For additional information, see Yoshii &amp; Yamamoto (1950), Todd &amp; Atkins (1958), Feakin (1971), Franklin &amp; Siddiqi (1972), Luc et al. (1990).
+\n
+Morphology\n
+besseyi has a slender body 0.44-0.84 mm long and 14-22 μm wide. In females, the excretory pore is usually near the anterior edge of the nerve ring; the spermatheca is elongate-oval and packed with sperm; the ovary is relatively short, the post-vulval uterine sac narrow, and the terminus bears a mucro of diverse shape with three to four pointed processes. In males, the proximal end of the spicule lacks a dorsal process.
 
 
     </string>
+    <string formatted="false" name="rice_4_management">
+       <b> Varietal resistance:</b>\n
+
+          The most effective control method was the use of pathogen-free seed or resistant varieties (Silva and da Silva, 1992). Oliveira and Oliveira (1989) reported that the genotypes Bluebelle, BR-IRGA 409 and IRGA 172 F4 SS39 in Brazil did not show symptoms of white tip when inoculated with A. besseyi. In USSR, utilizing the progenitors of almost all the resistant varieties bred there in the last 40 years are Fortuna, Nira, Rexoro and Bluebonnet, and in particular Rexoro (from which Bluebonnet was bred), a notable derivative Bonnet 73, with multiple resistance to A. besseyi and various diseases was developed (Zelenskii and Popova, 1991).
+
+\n\n <b>Physical:</b>\n
+
+          Aleksandrova and Beloglazov (1989) reported that storage of A. besseyi infected seed in regulated gas medium (97.5% nitrogen and 2.5% oxygen) for 10 days at 25øC gave the best control results. Seed treatments with either ethoprophos 20EC at 0.5%/100 liters, or hot water at 53-54oC for 15 reduced the infestation of nematode to almost nematode-free level (Tacconi et al., 1999). In addition to hot water treatment, a combination of benomyl seed treatment (at 0.3% by seed weight) and spraying (at 2.5 g/dm3) 1 or 15 days after transplanting protected rice plants from infestation by A. besseyi and  produced nematode free seeds (Gergon and Prot, 1993a).
+
+\n\n<b>Cultural:</b>\n
+
+           In irrigated rice, damage due to the nematode was limited when rice was sown directly into water rather than flooded after sowing (Silva and da Silva, 1992).
+
+\n\n<b>Regulatory:</b>\n
+
+Legislation prohibiting the sale of infested seed was urged (Silva and da Silva, 1992). In a bid to develop a quarantine treatment schedule, Prasad and Varaprasad (1992) tried sixteen treatment combinations in 10 rice entries heavily infested with white-tip nematode for its elimination. The treatment schedule of soaking of the seed in 0.2% solution of mancozeb and monocrotophos followed by vacuum fumigation (methyl bromide ca 32 g/m3) for 2 h at 30øC could eliminate the nematode in all the test entries. Even when the vacuum fumigation was substituted with atmospheric fumigation (aluminium phosphide @ 9.3 g/m3), the treatment schedule was equally effective. Soaking in water followed by hot water treatment (52øC for 30 min.) and vacuum fumigation, though effective in elimination of white-tip nematode, resulted in complete loss of seed viability.
+
+\n\n<b>Chemical:</b>\n
+
+.      Seed treatment with carbofuran, thiobendazole, benomyl or fenitrothion reduced nematodes to very low levels, but they were not entirely eliminated (Silva and da Silva,1992). Control was achieved to over 90% by using Xianjunling to soak rice seeds for 48 h (Qiu et al., 1991). Pre-soaking seed with oxamyl or hot water treatment reduced the infestation rate and increased yields (Tsay et al., 1998). In USSR, pre-sowing treatment of rice with the organic mercury compound Granozan and hydrogen peroxide reduced Aphelenchoides infestation of rice panicles, improved the density of the rice stands by 10 to 11% and increased the yields by 13% and 23 to 36%. Hydrogen peroxide quickly decomposed unlike Granozan which accumulates in the soil and in the grain and is toxic to mammals (Anikeev and Shabel\'-nikov, 1980). Kumar and Sivakumar (1998) observed  monocrotophos sprayed at 1000 ml/ha at the boot leaf stage, reduced the white tip incidence and grain chaffiness, and increased the yield of rice in field experiments.
+
+
+    </string>
+
+
+
 
 
 
@@ -227,267 +284,40 @@ India and Bangladesh.
 
 
     <string formatted="false" name="wheat_1_intro">
-        Aphelenchoides besseyi is seed borne, affects rice crop grown in humid areas. It is widely distributed and now occurs in most rice growing areas (Ou, 1985).
-Morphology besseyi has a slender body 0.44-0.84 mm long and 14-22 μm wide. In females, the excretory pore is usually near the anterior edge of the nerve ring; the spermatheca is elongate-oval and packed with sperm; the ovary is relatively short, the post-vulval uterine sac narrow, and the terminus bears a mucro of diverse shape with three to four pointed processes. In males, the proximal end of the spicule lacks a dorsal process.
-PEST SIGNIFICANCE
-
-Economic impact Since early in the 20th century, A. besseyi has been reported causing serious losses to rice in Japan and parts of the USA (especially from 1935 to 1945). However,attacks have Aphelenchoides besseyi become less important with the use of resistant cultivars and other control measures (Vuong &amp; Rodriguez, 1970). Attack results in poorly filled or unfilled, chaffy grains; the proportion of the latter may be as
-
-high as 40% in some cultivars, but early-ripening cultivars are relatively less affected.
-
-Yield reductions in rice of 17-54% and 0-24% have been recorded for susceptible
-
-and resistant cultivars, respectively. For more information, see Todd ; Atkins
-
-(1959b).
-
-On strawberries, A. besseyi was recorded over 70 years ago in the USA as the
-
-incitant of summer dwarf or crimp disease, and causing much reduced strawberry
-
-fruit yields.
-GEOGRAPHICAL DISTRIBUTION
-A. besseyi is not found beyond latitude 43° N on rice or beyond 40° N on strawberries. Locally established in Bulgaria, Hungary (Javor, 1970), Italy, Russia (European), Slovakia; reported from but not established in Israel and France.
-Asia: Afghanistan, Azerbaijan, Bangladesh, Cambodia, China (widespread), India (widespread), Indonesia, Iran, Israel (reported but not established), Japan (unconfirmed), Korea Republic, Lao, Malaysia, Myanmar, Nepal, Pakistan,Philippines, Sri Lanka, Taiwan, Tajikistan, Thailand, Uzbekistan, Viet Nam.
-Africa: Benin, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad,
-
-Comoros, Côte d;Ivoire, Egypt, Gabon, Gambia, Ghana, Kenya, Madagascar,
-
-Malawi, Mali, Nigeria, Senegal, Sierra Leone, South Africa, Tanzania, Togo, Uganda,
-
-Zaire, Zambia, Zimbabwe.
-
-North America: Mexico, USA (Arizona, California, Florida, Hawaii, Louisiana,
-
-Texas).
-
-Central America and Caribbean: Cuba, Dominica, Dominican Republic, El
-
-Salvador, Guadeloupe, Panama.
-
-South America: Argentina, Brazil (Bahia, Minas Gerais, Parana, Rondonia, Santa
-
-Catarina, São Paulo), Ecuador.
-
-Oceania: Australia (Queensland, Northern Territory), Fiji.
-
-BIOLOGY
-
-On rice, infested seed is the primary inoculum source. When the crop is sown, the
-
-nematodes become active and move to the growing points of leaves and stems
-
-where they feed ectoparasitically. A. besseyi may reproduce parthenogenetically.
-
-The optimum temperature for development is 21-25°C, the life cycle taking 10 days
-
-at 21°C and 8 days at 23°C, and there are several generations in a season. Up to 14
-
-nematodes, mostly pre-adults, have been found on a single seed, where they remain
-
-coiled up inside the palea. The grain itself is never invaded. A. besseyi can withstand
-
-desiccation, retaining viability for 2-3 years on dry grain, but dies in 4 months on
-
-grain left in the field; the nematode is not thought to survive long periods in the soil
-
-between crops.
-
-On strawberries, the nematode is also ectoparasitic, feeding on young tissue. It has
-
-been reported, in North Carolina (USA), that the strawberry form of the parasite can
-
-survive in soil over winter and that larval stages can withstand moderate desiccation in plant material.For further information, see Yokoo (1948), Yoshii &amp; Yamamoto (1950), Franklin &amp;Siddiqi (1972).
-
+        Cereal cyst nematode (CCN) H. avenae is the most important nematode of wheat, barley, oat, rye, maize and other graminaceous plants. H. avenae was first reported on wheat in Germany in 1874 (Kuhn, 1874).
     </string>
 
 
 
     <string formatted="false" name="wheat_1_spread">
- The pest is liable to be carried on rice seed and accompanying chaff, and also on strawberries and other host plants.   </string>
+    It is distributed widely throughout many wheat growing areas of the world, including Europe, India, Canada, the USA, China, Pakistan, Iran, Saudi Arabia, Israel, Morocco, Tunisia, Pakistan, Libya, Estonia and Australia, assuming the importance of a major limiting factor. In India, Vasudeva first detected H. avenae on the roots of wheat in 1958 in the village of Nim ka Thana in the Sikar District of Rajasthan. Since then, it has been recognized as an endemic problem in the agro-climatic zones of northern to central India, comprising the states of Punjab, Haryana, Uttar Pradesh, Himachal Pradesh, Jammu and Kashmir, Delhi and Madhya Pradesh.
+	\nAs the cyst stage is able to withstand the harsh environmental conditions and is disseminated through the movement of soil with machinery, animals, water, dust storm, and any means by which soil is disseminated.
+
+    </string>
 
 
     <string formatted="false" name="wheat_1_symptoms">
-    Affected plants show white-tip or whip-like malformation of the top third of the leaf
+    As the life cycle of CCNs progresses, several white females in the form of cysts are usually visible at each knot.\n
+1. Distinct patches of yellowed and stunted plants in the field.\n
+2. Great reduction in the Tillering\n
+3. Culms become thinner and weaker\n
+4. Affected plants flower prematurely and ear heads bear fewer grains\n
+5. Roots become bushy with slight swelling marking at the sites of nematode infection.\n
+6. Appearance of white glistening females on roots during January/February is the only and exact diagnostic symptom of presence of cereal cyst nematode on crop.\n
 
-blade. Nematodes invade the florets through the tunnel below the apiculus where
-
-lemma and palea remain open. In flowering tillers, chaffiness and abnormal
-
-elongation of glumes in some spikelets, rachii and rachillae were observed (Todd
-
-and Atkins, 1958; Rao, 1970). Cell damage to the outer wall of the ovary causes
-
-partial filling of kernels and damage to the lodicules prevents closure of flower after
-
-anthesis, exposing the embryo to environmental stresses like desiccation, infection
-
-by Alternaria (Trichoconis) padwikii (Ganguly) Ellis and spikelet sterility (Rao and
-
-Rao, 1979). During rice development, Tsay et al. (1998) found A. besseyi feeding
-
-endoparasitically in the coleoptile for 7-10 days and ectoparasitically within the
-
-innermost leaf sheath during other plant growth stages. At late tillering, nematode
-
-numbers increased rapidly, and reached a peak during the plant reproductive stage.
-
-Infected plants showed reduced vigour, height and weight of spikelets and number of
-
-grains.
-
-On strawberries
-
-There is leaf crinkling and distortion, and dwarfing of the plant with an associated
-
-reduction in flowering.
-
-On other hosts
-
-A. besseyi may be endoparasitic, as in Ficus elastica and Polianthes tuberosa, in
-
-which it causes leaf drop and leaf lesions, respectively. In the grass Sporobolus
-
-poirettii, the nematode stimulates growth, resulting in increased inflorescences.
-
-For additional information, see Yoshii &amp; Yamamoto (1950), Todd &amp; Atkins (1958),
-
-Feakin (1971), Franklin &amp; Siddiqi (1972), Luc et al. (1990).
 
     </string>
+
     <string formatted="false" name="wheat_1_management">
+\n        1.	Deep summer ploughings 2 to 3 times at an interval of 10 to 15 days between  May and June( reducing nematode population due to desiccation)
+\n2.	Fallowing checks population build-up by starvation of emerged juveniles
+\n3.	Change in time of planting
+\n4.	Early sowing of wheat in first fortnight of November ( By the time peak hatching / infection occurs, the crop is already 1-2 months old and can sustain damage due to nematodes)
+\n5.	Trap crop: Oats used as trap crop for reducing cereal cyst nematode
+\n6.	Crop Rotation: Crop rotation with non-host crops like Mustard, Chickpea, coriander, cumin, fenugreek, or carrots for 1-2 years. Population gets reduced from 47 to 55% at the end of one year.
+\n7.	Organic amendment: Mustard cake amendment can affect hatching of cysts mustard contain contains allyl isothiocyanate which is toxic to nematode.
+\n8.	The use of chemicals becomes economic when other methods of control are too costly, difficult to apply, or when a method such as rotation is inadequate. Today however, no chemical is considered adequate because of costs, environmental hazards, and high health risks for farmers.
 
-Preventative Measures - Aphelenchoides besseyi infestations can be avoided by using nematode-free seeds and planting in nematode-free fields (Taylor, 1969; Hudma et al., 1994).o Resistant Cultivars - The planting of resistant cultivars have strongly reduced yield losses caused by A. besseyi. However, resistant varieties may not be compatible with California production practices or market requirements. Rice varieties differ greatly in susceptibility to A. besseyi (Crally and French, 1952; Atkins and Todd, 1959).
-\n\n
-o Seed Treatment - Although there is some risk of injury to germination (Taylor, 1969),
-
-the most effective means of controlling A. besseyi is through seed treatments:
-\n
-• Hot water treatment of seed can be used to destroy this nematode infecting the seeds (Atkins and Todd, 1959). Pinherio et al. (1997), found that thermal wet treatment was the most effective. Aphelenchoides besseyi was not recovered from rice seeds which received hot water treatment at 55-60C for 15 minutes, but was observed in seed subjected to hot water treatment at 50C (Gergon and Prot, 1993). Lower temperatures (52-53C for 15 minutes) for hot water treatment have been reported (Crawley, 1959; Tenente et al., 1994). At temperatures reported for controlling A. besseyi, no effect on seed germination or viability was reported if seed was planted quickly.
-\n
-• Chemical treatments of seed have also been reported as being effective in controlling
-
-A. besseyi. Carbofuran (Tenente and Manso, 1994; Todd and Atkins, 1959) and
-
-aluminum phosphate fumigation (Tenente et al., 1994), are not effective chemical
-
-seed treatments for A. besseyi.
-\n\n
-o Chemical Control - The timing of field applications of chemicals is critical for the
-
-control of A. besseyi. Benomyl applied one day after nematode inoculation was more
-
-effective than when applied as a seed treatment. Total control was achieved when
-
-benomyl was sprayed as a seed treatment followed by two field sprayings. Control
-
-was increased when benomyl was applied during the nematode infestation stage as
-
-opposed to later in their life cycle when the nematode was feeding in the apical
-
-meristem (Gergon and Prot, 1993). Carbofuran applied in floodwater failed to control
-
-A. besseyi even immediately after inoculation (Gergon and Prot, 1993).
-\n\n
-o Cultural Practices - There are reports that rice seeded in water has trace white  tip
-
-infection, but if sown in dry soil and flooded later (usual practice in many areas), 60%
-
-of the crop may be infected. Presumably that strategy would be most effective when
-
-the soil was infested and clean seed used; less effective if infested seed was planted.
-\n\n\n
-Management:
-\n\n
-Varietal resistance:
-\n
-The most effective control method was the use of pathogen-free seed or resistant
-
-varieties (Silva and da Silva, 1992). Oliveira and Oliveira (1989) reported that the genotypes
-
-Bluebelle, BR-IRGA 409 and IRGA 172 F4 SS39 in Brazil did not show symptoms of white
-
-tip when inoculated with A. besseyi. In USSR, utilizing the progenitors of almost all the
-
-resistant varieties bred there in the last 40 years are Fortuna, Nira, Rexoro and Bluebonnet,
-
-and in particular Rexoro (from which Bluebonnet was bred), a notable derivative Bonnet 73,
-
-with multiple resistance to A. besseyi and various diseases was developed (Zelenskii and
-
-Popova, 1991).
-\n\n
-Physical:
-\n
-Aleksandrova and Beloglazov (1989) reported that storage of A. besseyi infected seed
-
-in regulated gas medium (97.5% nitrogen and 2.5% oxygen) for 10 days at 25 ø C gave the best
-
-control results. Seed treatments with either ethoprophos 20EC at 0.5%/100 liters, or hot water
-
-at 53-54 o C for 15 reduced the infestation of nematode to almost nematode-free level (Tacconi
-
-et al., 1999). In addition to hot water treatment, a combination of benomyl seed treatment (at
-
-0.3% by seed weight) and spraying (at 2.5 g/dm3) 1 or 15 days after transplanting protected
-
-rice plants from infestation by A. besseyi and produced nematode free seeds (Gergon and
-
-Prot, 1993a).
-\n\n
-Cultural:
-\n
-In irrigated rice, damage due to the nematode was limited when rice was sown directly into water rather
-
-than flooded after sowing (Silva and da Silva, 1992).
-\n\n
-Regulatory:
-\n
-Legislation prohibiting the sale of infested seed was urged (Silva and da Silva, 1992).
-
-In a bid to develop a quarantine treatment schedule, Prasad and Varaprasad (1992) tried
-
-sixteen treatment combinations in 10 rice entries heavily infested with white-tip nematode for
-
-its elimination. The treatment schedule of soaking of the seed in 0.2% solution of mancozeb
-
-and monocrotophos followed by vacuum fumigation (methyl bromide ca 32 g/m3) for 2 h at
-
-30 ø C could eliminate the nematode in all the test entries. Even when the vacuum fumigation
-
-was substituted with atmospheric fumigation (aluminium phosphide @ 9.3 g/m3), the
-
-treatment schedule was equally effective. Soaking in water followed by hot water treatment
-
-(52 ø C for 30 min.) and vacuum fumigation, though effective in elimination of white-tip
-
-nematode, resulted in complete loss of seed viability.
-\n\n
-Chemical:
-\n
-. Seed treatment with carbofuran, thiobendazole, benomyl or fenitrothion reduced
-
-nematodes to very low levels, but they were not entirely eliminated (Silva and da Silva,1992).
-
-Control was achieved to over 90% by using Xianjunling to soak rice seeds for 48 h (Qiu et
-
-al., 1991). Pre-soaking seed with oxamyl or hot water treatment reduced the infestation rate
-
-and increased yields (Tsay et al., 1998). In USSR, pre-sowing treatment of rice with the
-
-organic mercury compound Granozan and hydrogen peroxide reduced Aphelenchoides
-
-infestation of rice panicles, improved the density of the rice stands by 10 to 11% and
-
-increased the yields by 13% and 23 to 36%. Hydrogen peroxide quickly decomposed unlike
-
-Granozan which accumulates in the soil and in the grain and is toxic to mammals (Anikeev
-
-and Shabel-nikov, 1980). Kumar and Sivakumar (1998) observed monocrotophos sprayed at
-
-1000 ml/ha at the boot leaf stage, reduced the white tip incidence and grain chaffiness, and
-
-increased the yield of rice in field experiments.
 
 
     </string>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Nematodeinfo</string>
+<color name="White">#ffffff</color>
+
+   <string name="footer"> Dr. PANKAJ , HARENDER KUMAR AND ANJANI KUMAR , 2017</string>
+
+      <string-array name="crops">
+      <item>Rice</item>
+      <item>Wheat</item>
+   </string-array>
+
+   <string-array name="Rice_Nematodes">
+      <item>M.Graminicola</item>
+      <item>Hirscmanniella</item>
+      <item>Ditylenchus</item>
+      <item>Aphelenchoides besseyi</item>
+   </string-array>
+
+   <integer-array name="Rice_Nematodes_images">
+      <item>@drawable/rice</item>
+      <item>@drawable/rice</item>
+      <item>@drawable/rice</item>
+      <item>@drawable/rice</item>
+   </integer-array>
+
+   <string-array name="Wheat_Nematodes">
+      <item>Heterodera</item>
+   </string-array>
+
+   <integer-array name="Wheat_Nematodes_images">
+      <item>@drawable/rice</item>
+   </integer-array>
+
+   <string name="rice_1_intro">"‎हिन्दी लिखने के उपकरण ‎हिन्दी लिखने के उपकरण "</string>
+   <string name="rice_1_management">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_1_spread">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_1_symptoms">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_2_intro">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_2_management">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_2_spread">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_2_symptoms">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_3_intro">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_3_management">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_3_spread">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_3_symptoms">‎हिन्दी लिखने के उपकरण</string>
+   <string name="title_activity_cropnema">‎हिन्दी लिखने के उपकरण</string>
+   <string name="title_activity_tab5">‎हिन्दी लिखने के उपकरण</string>
+   <string name="wheat_1_intro"> ‎हिन्दी  </string>
+   <string name="wheat_1_management">‎हिन्दी लिखने के उपकरण</string>
+   <string name="wheat_1_spread">‎हिन्दी लिखने के उपकरण</string>
+   <string name="wheat_1_symptoms">‎हिन्दी लिखने के उपकरण</string>
+   <string name="rice_4_intro">kjsn</string>
+   <string name="rice_4_management">sjdnj</string>
+   <string name="rice_4_spread">sndn</string>
+   <string name="rice_4_symptoms">smdn</string>
+</resources>

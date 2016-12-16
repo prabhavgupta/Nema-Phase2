@@ -2,7 +2,10 @@ package com.nemetologydept.nematodeinfo;
 
 
 import android.content.Intent;
+import android.graphics.PorterDuff;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 
 import android.support.v7.widget.Toolbar;
@@ -21,17 +24,24 @@ public class Cropnema extends AppCompatActivity {
     ListView list;
     String[] web;
     int value;
+    int[] imageId;
 
 
-    Integer[] imageId;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cropnema);
-      //  Toolbar toolbar= (Toolbar) findViewById(R.id.toolbar);
-        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
-    //        actionBar.setDisplayHomeAsUpEnabled(true);
+
+        Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
+        setSupportActionBar(toolbar);
+        toolbar.setTitleTextColor(0xFFFFFFFF);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //toolbar.setLogo(R.drawable.rice);
+
         Intent i=getIntent();
         Bundle extras = i.getExtras();
         if (extras != null) {
@@ -45,85 +55,36 @@ public class Cropnema extends AppCompatActivity {
         switch(value)
         {
             case 1:
-                String[] webr = {
-                        "M.Graminicola","Hirscmanniella","Aphelench","Nema3","Nema4","Nema4"
-                } ;
-                Integer[] imageIdr = {
+                toolbar.setTitle("Rice Nematodes");
+                String[] webr = getResources().getStringArray(R.array.Rice_Nematodes);
+                int[] imageIdr =  {
                         R.drawable.rice,
                         R.drawable.rice,
                         R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
+                        R.drawable.rice
                 };
 
                 web=webr;
                 imageId=imageIdr;
                 break;
             case 2:
-                String[] webw = {
-                        "Aphelena","W2","W3","W4","W5"
-                } ;
-                Integer[] imageIdw = {
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
+
+                toolbar.setTitle("Wheat Nematodes");
+                String[] webw = getResources().getStringArray(R.array.Wheat_Nematodes);
+                int[] imageIdw = {
+                        R.drawable.rice
                 };
 
                 web=webw;
                 imageId=imageIdw;
                 break;
-            case 3:
-                String[] webra = {
-                        "B1","Nema2","Nema3","Nema3","Nema4","Nema4"
-                } ;
-                Integer[] imageIdra = {
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                };
-
-                web=webra;
-                imageId=imageIdra;
-
-                break;
-            case 4:
-                String[] webb = {
-                        "B2 ","Nema2","Nema3","Nema3","Nema4","Nema4"
-                } ;
-                Integer[] imageIdb = {
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                        R.drawable.rice,
-                };
-
-                web=webb;
-                imageId=imageIdb;
-                break;
             default:
                 break;
         }
 
-
-
-
         //Getting actionbar for back button
 
-
-
-
-
        // setSupportActionBar(toolbar);
-
-
 
         custom_list adapter = new
                 custom_list(Cropnema.this, web, imageId);

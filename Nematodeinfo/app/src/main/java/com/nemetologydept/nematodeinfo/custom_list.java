@@ -13,9 +13,9 @@ public class custom_list extends ArrayAdapter<String>{
 
     private final Activity context;
     private final String[] web;
-    private final Integer[] imageId;
+    private final int[] imageId;
     public custom_list(Activity context,
-                      String[] web, Integer[] imageId) {
+                      String[] web, int[] imageId) {
         super(context, R.layout.list_single, web);
         this.context = context;
         this.web = web;

@@ -43,6 +43,8 @@ public class Tab1 extends android.support.v4.app.Fragment {
             t.setText(R.string.rice_2_intro);
         }else if(x==1 && y==3){
             t.setText(R.string.rice_3_intro);
+        }else if(x==1 && y==4){
+            t.setText(R.string.rice_4_intro);
         }else if(x==2 && y==1){
             t.setText(R.string.wheat_1_intro);
         }

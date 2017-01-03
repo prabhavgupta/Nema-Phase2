@@ -4,26 +4,6 @@
     <string name="footer"> Dr. PANKAJ , HARENDER KUMAR AND ANJANI KUMAR , 2017</string>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <string-array name="crops">
         <item>Rice</item>
         <item>Wheat</item>
@@ -48,7 +28,7 @@
     </string-array>
 
     <integer-array name="Wheat_Nematodes_images">
-        <item>@drawable/rice</item>
+        <item>@drawable/wheat</item>
     </integer-array>
 
 
@@ -104,17 +84,6 @@ In deep water rice, the nematode infested seedlings remain stunted, unable to gr
 
 
     </string>
-
-
-
-
-
-
-
-
-
-
-
 
 
     <!-- Rice 2-->
@@ -206,13 +175,13 @@ The reproduction in D. angustus is amphimictic with males as numerous as females
 
 
 
-         <string  formatted="false"  name="rice_4_intro">
+         <string name="rice_4_intro" formatted="false">
    Aphelenchoides besseyi is seed borne, affects rice crop grown in humid areas. It is widely distributed and now occurs in most rice growing areas.
 </string>
 
 
 
-    <string name="rice_4_spread"  formatted="false" >
+    <string name="rice_4_spread" formatted="false">
  A. besseyi is not found beyond latitude 43° N on rice or beyond 40° N on strawberries.  Locally established in Bulgaria, Hungary (Javor, 1970), Italy, Russia (European), Slovakia; reported from but not established in Israel and France.\n
 \n<b>Asia</b>: Afghanistan, Azerbaijan, Bangladesh, Cambodia, China (widespread), India (widespread), Indonesia, Iran, Israel (reported but not established), Japan (unconfirmed), Korea Republic, Lao, Malaysia, Myanmar, Nepal, Pakistan, Philippines, Sri Lanka, Taiwan, Tajikistan, Thailand, Uzbekistan, Viet Nam.\n
 \nAfrica: Benin, Burkina Faso, Burundi, Cameroon, Central African Republic, Chad, Comoros, Côte d\'Ivoire, Egypt, Gabon, Gambia, Ghana, Kenya, Madagascar, Malawi, Mali, Nigeria, Senegal, Sierra Leone, South Africa, Tanzania, Togo, Uganda, Zaire, Zambia, Zimbabwe.\n
@@ -224,7 +193,7 @@ The reproduction in D. angustus is amphimictic with males as numerous as females
    </string>
 
 
-    <string  formatted="false" name="rice_4_symptoms">
+    <string name="rice_4_symptoms" formatted="false">
 
 Affected plants show white-tip or whip-like malformation of the top third of the leaf blade. Nematodes invade the florets through the tunnel below the apiculus where lemma and palea remain open. In flowering tillers, chaffiness and abnormal elongation of glumes in some spikelets, rachii and rachillae were observed (Todd and Atkins, 1958; Rao, 1970). Cell damage to the outer wall of the ovary causes partial filling of kernels and damage to the lodicules prevents closure of flower after anthesis, exposing the embryo to environmental stresses like desiccation, infection by Alternaria (Trichoconis) padwikii (Ganguly) Ellis and spikelet sterility (Rao and Rao, 1979). During rice development, Tsay et al. (1998) found A. besseyi feeding endoparasitically in the coleoptile for 7-10 days and ectoparasitically within the innermost leaf sheath during other plant growth stages. At late tillering, nematode numbers increased rapidly, and reached a peak during the plant reproductive stage. Infected plants showed reduced vigour, height and weight of spikelets and number of grains.
 \n
@@ -239,7 +208,7 @@ besseyi has a slender body 0.44-0.84 mm long and 14-22 μm wide. In females, the
 
 
     </string>
-    <string formatted="false" name="rice_4_management">
+    <string name="rice_4_management" formatted="false">
        <b> Varietal resistance:</b>\n
 
           The most effective control method was the use of pathogen-free seed or resistant varieties (Silva and da Silva, 1992). Oliveira and Oliveira (1989) reported that the genotypes Bluebelle, BR-IRGA 409 and IRGA 172 F4 SS39 in Brazil did not show symptoms of white tip when inoculated with A. besseyi. In USSR, utilizing the progenitors of almost all the resistant varieties bred there in the last 40 years are Fortuna, Nira, Rexoro and Bluebonnet, and in particular Rexoro (from which Bluebonnet was bred), a notable derivative Bonnet 73, with multiple resistance to A. besseyi and various diseases was developed (Zelenskii and Popova, 1991).
@@ -283,20 +252,20 @@ Legislation prohibiting the sale of infested seed was urged (Silva and da Silva,
 
 
 
-    <string formatted="false" name="wheat_1_intro">
+    <string name="wheat_1_intro" formatted="false">
         Cereal cyst nematode (CCN) H. avenae is the most important nematode of wheat, barley, oat, rye, maize and other graminaceous plants. H. avenae was first reported on wheat in Germany in 1874 (Kuhn, 1874).
     </string>
 
 
 
-    <string formatted="false" name="wheat_1_spread">
+    <string name="wheat_1_spread" formatted="false">
     It is distributed widely throughout many wheat growing areas of the world, including Europe, India, Canada, the USA, China, Pakistan, Iran, Saudi Arabia, Israel, Morocco, Tunisia, Pakistan, Libya, Estonia and Australia, assuming the importance of a major limiting factor. In India, Vasudeva first detected H. avenae on the roots of wheat in 1958 in the village of Nim ka Thana in the Sikar District of Rajasthan. Since then, it has been recognized as an endemic problem in the agro-climatic zones of northern to central India, comprising the states of Punjab, Haryana, Uttar Pradesh, Himachal Pradesh, Jammu and Kashmir, Delhi and Madhya Pradesh.
 	\nAs the cyst stage is able to withstand the harsh environmental conditions and is disseminated through the movement of soil with machinery, animals, water, dust storm, and any means by which soil is disseminated.
 
     </string>
 
 
-    <string formatted="false" name="wheat_1_symptoms">
+    <string name="wheat_1_symptoms" formatted="false">
     As the life cycle of CCNs progresses, several white females in the form of cysts are usually visible at each knot.\n
 1. Distinct patches of yellowed and stunted plants in the field.\n
 2. Great reduction in the Tillering\n
@@ -308,7 +277,7 @@ Legislation prohibiting the sale of infested seed was urged (Silva and da Silva,
 
     </string>
 
-    <string formatted="false" name="wheat_1_management">
+    <string name="wheat_1_management" formatted="false">
 \n        1.	Deep summer ploughings 2 to 3 times at an interval of 10 to 15 days between  May and June( reducing nematode population due to desiccation)
 \n2.	Fallowing checks population build-up by starvation of emerged juveniles
 \n3.	Change in time of planting
@@ -323,36 +292,81 @@ Legislation prohibiting the sale of infested seed was urged (Silva and da Silva,
     </string>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <string name="title_activity_cropnema">Cropnema</string>
     <string name="title_activity_tab5">Tab5</string>
+    <string name="title_activity_settings">Settings</string>
 
+    <!-- Strings related to Settings -->
 
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
 
 
 </resources>

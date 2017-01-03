@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         config.locale = locale;
         getBaseContext().getResources().updateConfiguration(config,
                 getBaseContext().getResources().getDisplayMetrics());
-        Toast.makeText(getBaseContext(),"aalalala",Toast.LENGTH_LONG).show();
+        //Toast.makeText(getBaseContext(),"aalalala",Toast.LENGTH_LONG).show();
 
         setContentView(R.layout.activity_main);
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         String[] web = getApplicationContext().getResources().getStringArray(R.array.crops);
         int[] imageId = {
                 R.drawable.rice,
-                R.drawable.rice
+                R.drawable.wheat
         };
 
 
@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
                     i.putExtra("key",position);
 
                     startActivity(i);
+                finish();
 
 
 

@@ -14,7 +14,7 @@ public class settings extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
+        setContentView(R.layout.activity_settings_2);
 
 
         Button english = (Button) findViewById(R.id.button_english);

@@ -2,10 +2,9 @@ package com.nemetologydept.nematodeinfo;
 
 
 import android.content.Intent;
-import android.graphics.PorterDuff;
-import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 
 import android.support.v7.widget.Toolbar;
@@ -16,9 +15,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-
 import com.nemetologydept.nematodeinfo.ScrollableTabs.TabFragmentsLandingPage;
-
 
 public class Cropnema extends AppCompatActivity {
     ListView list;
@@ -29,18 +26,25 @@ public class Cropnema extends AppCompatActivity {
 
 
 
+   @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cropnema);
 
+
+       //getWindow().setStatusBarColor(getResources().getColor(R.color.primary_dark));
+
+
         Toolbar toolbar = (Toolbar) findViewById( R.id.toolbar );
         setSupportActionBar(toolbar);
         toolbar.setTitleTextColor(0xFFFFFFFF);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        /*getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);*/
         //toolbar.setLogo(R.drawable.rice);
+
+
 
         Intent i=getIntent();
         Bundle extras = i.getExtras();
@@ -55,7 +59,7 @@ public class Cropnema extends AppCompatActivity {
         switch(value)
         {
             case 1:
-                toolbar.setTitle("Rice Nematodes");
+                //toolbar.setTitle("Rice Nematodes");
                 String[] webr = getResources().getStringArray(R.array.Rice_Nematodes);
                 int[] imageIdr =  {
                         R.drawable.rice,
@@ -69,10 +73,10 @@ public class Cropnema extends AppCompatActivity {
                 break;
             case 2:
 
-                toolbar.setTitle("Wheat Nematodes");
+                //toolbar.setTitle("Wheat Nematodes");
                 String[] webw = getResources().getStringArray(R.array.Wheat_Nematodes);
                 int[] imageIdw = {
-                        R.drawable.rice
+                        R.drawable.wheat
                 };
 
                 web=webw;
@@ -98,10 +102,10 @@ public class Cropnema extends AppCompatActivity {
                 Intent i = new Intent(Cropnema.this , TabFragmentsLandingPage.class);
                 int pass[]={value,position+1};
 
-               i.putExtra("key",pass);
-
+                i.putExtra("key",pass);
 
                 startActivity(i);
+
 
             }
         });
@@ -113,15 +117,15 @@ public class Cropnema extends AppCompatActivity {
     public void onBackPressed() {
 
 
-        Intent MainActivityIntent = new Intent(Cropnema.this, MainActivity.class);
-        startActivity(MainActivityIntent);
+       /* Intent MainActivityIntent = new Intent(Cropnema.this, MainActivity.class);
+        startActivity(MainActivityIntent);*/
         super.onBackPressed();
 
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.m1, menu);//Menu Resource, Menu
+        //getMenuInflater().inflate(R.menu.m1, menu);//Menu Resource, Menu
         return true;
     }
 
@@ -133,6 +137,7 @@ public class Cropnema extends AppCompatActivity {
             case R.id.settings:
                 Intent i= new Intent(this,settings.class);
                 startActivity(i);
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

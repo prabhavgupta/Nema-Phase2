@@ -3,6 +3,25 @@
 
     <string name="footer"> Dr. PANKAJ , HARENDER KUMAR AND ANJANI KUMAR , 2017</string>
 
+    <string name="p"> Principal Scientist
+        \nGeneral Secretary (Nematological Soc. of India)
+        \nRoom No. 326,
+        \nDivision of Nematology, LBS Building
+        \nICAR-IARI
+        \nNew Delhi - 110012. (INDIA)
+        \nTel: +91 011-25846626
+        \nMobile: 09868843554, 09911369709</string>
+
+    <string name="ak"> Programme Coordinator
+        \nKrishi Vigyan Kendra, Shikohpur
+        \nGurugram, Haryana.
+        \nMob. : 9811696364</string>
+
+    <string name="hk">Principal Scientist
+        \nDivision of Nematology, LBS Building
+        \nICAR-IARI
+        \nNew Delhi - 110012. (INDIA)
+        \nTel: +91 011-25846626</string>
 
     <string-array name="crops">
         <item>Rice</item>
@@ -10,10 +29,10 @@
     </string-array>
 
     <string-array name="Rice_Nematodes">
-        <item>M.Graminicola</item>
-        <item>Hirscmanniella</item>
-        <item>Ditylenchus</item>
-        <item>Aphelenchoides besseyi</item>
+        <item>Root-Knot Nematode</item>
+        <item>Rice Root-Nematode</item>
+        <item>Ufra Nematode </item>
+        <item>White - Tip Nematode</item>
     </string-array>
 
     <integer-array name="Rice_Nematodes_images">
@@ -24,7 +43,7 @@
     </integer-array>
 
     <string-array name="Wheat_Nematodes">
-        <item>Heterodera</item>
+        <item>Cyst Nematode</item>
     </string-array>
 
     <integer-array name="Wheat_Nematodes_images">
@@ -54,7 +73,9 @@
     </string>
     
     
-    
+    <string name="hindi_select">कृपया अपनी भाषा चुनें</string>
+    <string name="hindi">हिंदी</string>
+
     <string name="rice_1_spread">
   Rice root-knot nematode is widely distributed in South-East Asia and USA, both in upland and deepwater rice. Severe damage occurs in upland and sometimes in transplanted rice in north-eastern states, West Bengal, Odisha, Bihar, Eastern Uttar Pradesh, Chhattisgarh, parts of Madhya Pradesh and Karnataka. Pockets of heavy infestation of rice nurseries and transplanted crop have been noticed in north-Indian plains including Jammu, Punjab, Himachal Pradesh, Haryana, Delhi and Uttar Pradesh. The nematode has also been reported in Andaman and Nicobar Islands.
 This nematode infecting wheat and rice are carried passively to newer places through  transportation of infected rice seedlings, flowing irrigation and runoff water, movement of soil containing eggs and bits of dried infected roots through cattle and human feet, farm machinery, weed, wind, etc. and suckers of banana.
@@ -292,7 +313,7 @@ Legislation prohibiting the sale of infested seed was urged (Silva and da Silva,
     </string>
 
 
-    <string name="title_activity_cropnema">Cropnema</string>
+    <string name="title_activity_cropnema">Nematodes</string>
     <string name="title_activity_tab5">Tab5</string>
     <string name="title_activity_settings">Settings</string>
 
